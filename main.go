@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang/example"
+)
 
 type person struct {
 	name string
@@ -26,4 +29,6 @@ func main() {
 		age:  16,
 	}
 	fmt.Printf("p5=%#v\n", &p5.age)
+	example.SayHello()
+	SayHello()
 }
