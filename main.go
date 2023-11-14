@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang/example"
+	_ "golang/example"
 )
 
 type person struct {
@@ -29,6 +29,6 @@ func main() {
 		age:  16,
 	}
 	fmt.Printf("p5=%#v\n", &p5.age)
-	example.SayHello()
-	SayHello()
+	//example.SayHello()
+	sayHello()
 }
